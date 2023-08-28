@@ -1,34 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Semântico</title>
-</head>
-<body>
-    <header>
-       <h1>Título principal da página</h1>
-       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et aliquid quas, asperiores voluptatibus expedita, perferendis explicabo nostrum magni labore placeat, temporibus laboriosam? Natus eaque accusantium, quidem quaerat ut ab itaque.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Semântico</title>
+        <link rel="stylesheet" href="./style.css">
+       
+
+
+    </head>
+    <body>
+        <header id="topo-pagina">
+            
+            <nav>
+            <!-- lista ordenada-->
+          
+            <ul>
+                <!-- Intem da lista-->
+            
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            
+            <li>
+                <a href="#sobre-nos">Sobre Nós</a>
+            </li>
+
+            <li>
+                <a href="#contatos">Contatos</a>
+            </li>
+            
+            
+            </ul>
+            
+            </nav>
+
+            <h1>Título principal da página</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et aliquid quas, asperiores voluptatibus expedita, 
+        perferendis explicabo nostrum magni labore placeat, temporibus laboriosam? 
+        Natus eaque accusantium, quidem quaerat ut ab itaque.</p>
+        </header>
+
+        
 
        <h2>Título secundário</h2>
-       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non suscipit dolorum harum, numquam quos itaque. Dignissimos blanditiis ducimus consequuntur rerum, nihil laborum assumenda corrupti ipsam beatae quisquam eaque, cupiditate labore.</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non suscipit dolorum harum, numquam quos itaque.
+       Dignissimos blanditiis ducimus consequuntur rerum, nihil laborum assumenda corrupti ipsam beatae quisquam eaque, 
+       cupiditate labore.</p>
 
+<article>
+    <header>
+        <H1>Lorem, ipsum dolor sit.</H1>
+        <p>Lorem, ipsum dolor</p>
+        <p>Lorem ipsum, dolor sit .</p>
     </header>
+</article>
 
-       <nav>
+<section id="sobre-nos">
+    <a href="#topo-pagina">Voltar para o topo da página</a>
+    
+    <h2>Sobre Nós</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure suscipit facere deserunt blanditiis repudiandae! Culpa quo fugit vero omnis aperiam.</p>
 
-       <h3>Lorem, ipsum dolor</h3>
-       <ul>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae reprehenderit consequuntur iste necessitatibus illo mollitia!</p>
+</section>
+<article>
+    <header>
+        <H1>Lorem, ipsum dolor sit.</H1>
+        <p>Lorem, ipsum dolor</p>
+        <p>Lorem ipsum, dolor sit .</p>
+    </header>
+</article>
 
-       <li>Lorem, ipsum</li>
+<article>
+    <header>
+        <H1>Lorem, ipsum dolor sit.</H1>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </header>
+</article>
 
-       <li>Lorem, ipsumk</li>
+<section id="contatos">
+    
+    <h3>Contatos</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti quaerat dolor minima doloribus perferendis!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quaerat, quos aut tempora nobis ducimus porro consectetur explicabo ipsa aliquam!!</p>
+    </p>
 
-       </ul>
-
-       </nav>
-
-
+    <a href="#topo-pagina">Voltar para o topo da página</a>
+</section>
+<footer>
+    <!-- Proibido -->
+    <!--  <header></header>  -->
+    <p>Link para o 
+        <a href="https://github.com/IzabellaSantos93">Meu github</a>
+    </p>
+</footer> 
     
     
 </body>
