@@ -3,5 +3,9 @@ html{
 }
 
 body {
-    color:crimson;
+    color:white;
+    background-color: black;
+
+    margin: 0;
 }
+
