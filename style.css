@@ -1,0 +1,14 @@
+/* CSS externo (arquivo)*/
+
+html {
+    scroll-behavior: smooth; 
+}
+
+h1 {
+    
+color:red;
+line-height: 2;
+font-weight: bold;
+font-size: 22px;
+
+}
