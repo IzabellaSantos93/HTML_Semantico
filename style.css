@@ -1,4 +1,12 @@
-/* CSS externo (arquivo)*/
+:root {
+  --cor-primaria:#4942E4;
+  --cor-secundaria: #068FFF;
+  --cor-terciaria: #191D88;
+  --cor-quaternaria: #FFBFBF;
+  --cor-fundo: #CEE6F3;
+  
+
+}
 
 html {
     scroll-behavior: smooth; 
@@ -8,7 +16,7 @@ body {
   
   margin: 20px 50px;
   text-align: justify;
-  background-color: #AED2FF;
+  background-color: var(--cor-fundo);
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -25,7 +33,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 .titulo-de-artigo {
 
-  color: blue;
+  color: var(--cor-primaria);
   line-height: 2;
   font-weight: bold;
   font-size: 18pt;
@@ -33,7 +41,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .titulo-de-secao {
-  color: blue;
+  color: var(--cor-secundaria);
   line-height: 1.8;
   font-size: 18pt;
   font-weight: bold;
@@ -41,7 +49,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .subtitulo-de-artigo {
-  color: blue;
+  color: var(--cor-secundaria);
   line-height: 1,5;
   font-weight: bold;
   font-size: 14pt;
@@ -51,18 +59,18 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-  color: brown;
+  color: var(--cor-terciaria);
   line-height: 1.2;
   
 }
 
 .paragrafo-de-artigo {
-  background-color: #D2D0FE;
+  background-color:var(--cor-quaternaria);
   padding: 20px;
 }
 
 article {
-  border: 4px double #181823;
+  border: 4px dotted var(--cor-quaternaria);
   padding: 30px;
   margin: 30px 0;
   border-radius: 20px 0 20px 0;
