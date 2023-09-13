@@ -62,6 +62,7 @@ p {
   color: var(--cor-terciaria);
   line-height: 1.2;
   
+  
 }
 
 .paragrafo-de-artigo {
@@ -69,9 +70,27 @@ p {
   padding: 20px;
 }
 
+p + .paragrafo-de-artigo {
+  padding: 0;
+}
+
 article {
   border: 4px dotted var(--cor-quaternaria);
   padding: 30px;
   margin: 30px 0;
   border-radius: 20px 0 20px 0;
+}
+
+.menu-principal ul {
+  background-color: var(--cor-primaria);
+  
+}
+
+.menu-principal li {
+  color: var(--cor-quaternaria);
+}
+
+.menu-principal a {
+  color: var(--cor-quaternaria);
+
 }
