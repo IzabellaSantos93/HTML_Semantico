@@ -55,30 +55,46 @@ font-family: Arial, Helvetica, sans-serif;
   font-size: 14pt;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
-
 }
 
 p {
   color: var(--cor-terciaria);
   line-height: 1.2;
-  
-  
+
 }
 
-.paragrafo-de-artigo {
-  background-color:var(--cor-quaternaria);
-  padding: 20px;
+.paragrafo-de-artigo{
+  background-color: var(--cor-quaternaria);
+  padding:20px
+
 }
+
 
 p + .paragrafo-de-artigo {
   padding: 0;
 }
 
+.paragrafo-de-artigo:first-of-type {
+  border-radius: 20px 0 0 0;
+  
+
+}
+
+
+.paragrafo-de-artigo:only-of-type {
+  border-radius:  0 0 20px 0;
+}
+
+.paragrafo-de-artigo:only-of-type {
+  border-radius: 20px 0 20px 0;
+}
+
+
+
 article {
   border: 4px dotted var(--cor-quaternaria);
   padding: 30px;
   margin: 30px 0;
-  border-radius: 20px 0 20px 0;
 }
 
 .menu-principal ul {
@@ -94,3 +110,4 @@ article {
   color: var(--cor-quaternaria);
 
 }
+
